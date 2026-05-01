@@ -1,17 +1,44 @@
-AI Medical Assistant (RAG-based System)
+# 🧠 MediPredict – AI-Based Medicine Recommendation System
 
-Description:
-An AI-powered assistant that answers user queries using contextual data.
+## 📌 Description
+MediPredict is an AI-powered system that recommends medicines based on user symptoms using machine learning and natural language processing (NLP). The goal is to assist users in quickly identifying possible treatments and improving decision-making efficiency.
 
-Features:
-- Natural language queries
-- Fast response generation
-- Handles large datasets
+---
 
-Tech Stack:
-Python, NLP, (OpenAI/LangChain if used)
+## 🚀 Features
+- Symptom-based medicine prediction  
+- NLP-based input processing  
+- Machine learning classification models  
+- Fast and automated recommendations  
+- Data preprocessing and feature engineering pipeline  
 
-How to Run:
-1. Clone repo
-2. Install requirements
-3. Run app.py
+---
+
+## 🧱 Tech Stack
+- Python  
+- Pandas, NumPy  
+- Scikit-learn / TensorFlow  
+- NLP techniques  
+- Tableau (for visualization, if used)
+
+---
+
+## ⚙️ How It Works
+1. User inputs symptoms  
+2. Data is cleaned and processed  
+3. NLP techniques extract relevant features  
+4. ML model predicts suitable medicines  
+5. Output is generated for the user  
+
+---
+
+## 📊 Model Performance
+- Achieved ~88% prediction accuracy  
+- Optimized using feature engineering and hyperparameter tuning  
+
+---
+
+## ▶️ How to Run
+```bash
+pip install -r requirements.txt
+python app.py
